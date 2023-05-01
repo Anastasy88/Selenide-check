@@ -16,7 +16,7 @@ public class CardDeliveryTest {
     }
 
     @Test
-    void FillingOutTheForm() {
+    void fillingOutTheForm() {
         Configuration.holdBrowserOpen = true;
         String planningDate = generateDate(4);
 
